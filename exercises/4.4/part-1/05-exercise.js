@@ -15,8 +15,8 @@ let info = {
 
   for (let key in info) {
     if (key != "recorrente") {
-        console.log(info[key], "e", info2[key]);
+        console.log(info[key], "e", info2[key] + ".");
     } else {
-        console.log("Ambos recorrentes")
+        console.log("Ambos recorrentes" +".")
     }
 }

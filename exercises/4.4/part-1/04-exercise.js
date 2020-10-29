@@ -7,15 +7,6 @@ let info = {
 
 
 for (let key in info) {
-    console.log(info[key])
+    console.log(info[key]+".")
 }
 
-let car = {
-    type: "Fiat",
-    model: "500",
-    color: "white",
-}
-
-for (let key in car) {
-    console.log(car[key])
-}
