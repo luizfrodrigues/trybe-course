@@ -1,0 +1,12 @@
+Para conhecer mais eventos, acesse este link (https://www.w3schools.com/jsref/dom_obj_event.asp), no qual são listados vários eventos diferentes para você utilizar. Os mais comuns são: click, change, mouseover e keyup.
+Outra coisa que vale a pena se lembrar sempre é que todos os elementos podem receber eventos. Tudo depende apenas de sua necessidade. Você pode usar eventos em caixas de texto, botões e até mesmo elementos estáticos, como div e p.
+Agora que você já tem entendimento sobre o funcionamento de alguns eventos, acesse este link (https://codepen.io/johnatas-henrique/pen/jOEQQvZ) e veja um exemplo interativo. Nele você verá a diferença entre o evento change e o evento keyup.
+Para finalizar o conteúdo do dia que tal alguns exercícios para treinarmos a o que você acabou de aprender?! Mas, antes disso, uma dica importante:
+
+    Você pode colocar quantos event listeners quiser em um mesmo elemento;
+
+Para os exercícios, utilizaremos outros links do CodePen. Você não precisará alterar nada no HTML nem no CSS. Foque apenas no JavaScript e nos event listeners.
+Exercício 1 - https://codepen.io/johnatas-henrique/pen/xxbQeOb
+Exercício 2 - https://codepen.io/johnatas-henrique/pen/oNgQOoY
+Exercício 3 - https://codepen.io/johnatas-henrique/pen/bGNQJXZ
+Exercício 4 - https://codepen.io/johnatas-henrique/pen/jOEQovq
