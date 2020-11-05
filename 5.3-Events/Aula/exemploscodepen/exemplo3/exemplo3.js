@@ -9,3 +9,5 @@ function trocaTextoB () {
   caixaDois.innerText = caixaTexto.value;
 }
 //Crie seu event listener abaixo:
+caixaTexto.addEventListener("keyup",trocaTextoA)
+caixaTexto.addEventListener("change", trocaTextoB)

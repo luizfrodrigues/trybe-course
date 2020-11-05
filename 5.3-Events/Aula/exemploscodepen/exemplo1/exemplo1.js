@@ -6,3 +6,4 @@ function corQuadrado() {
 }
 
 inputTexto.addEventListener("keyup", corQuadrado);
+// keyup por change
