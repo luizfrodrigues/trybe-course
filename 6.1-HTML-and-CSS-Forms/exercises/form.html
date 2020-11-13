@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -27,11 +27,40 @@
             <input type="text" name="cpf" id="numero-cpf" maxlength="11" placeholder="00000000000" required>
             <br>
             <label for="moradia">Endereço:</label>
-            <input type="text" name="endereço" id="moradia" required maxlength="200" placeholder="Endereço">
+            <input type="text" name="endereço" id="moradia" required maxlength="200" placeholder="Rua XXXX, 000, bairro, Cep 000000-000">
             <br>
-            
+            <label for="cidade">Cidade:</label>
+            <input type="text" name="cidade" id="cidade" required maxlength="28" placeholder="Barueri">
+            <br>
+            <label for="sigla"></label>
+            <select name="estado" id="sigla" required>Estado</select>
+            <br>
+            <p class="tipo-moradia">Tipo de moradia:</p>
+            <label for="casa">
+                <input type="radio" name="casa-apartamento" id="casa" checked>Casa
+            </label>            
+            <label for="apartamento">
+                <input type="radio" name="casa-apartamento" id="apartamento" >Apartamento
+            </label>
+            <label for="outro">
+                <input type="radio" name="casa-apartamento" id="outro">Outro
+            </label>
         </fieldset>
-    </form>
+        <fieldset>
+            <legend>Dados do seu útimo Emprego</legend>
+            <p class="resumo">Resumo do Currículo:</p>
+            <textarea name="resumo" id="resumo-curriculo" cols="30" rows="10" maxlength="1000" required placeholder="Breve descrição do seu último trabalho."></textarea>
+            <br>
+            <label for="cargo">Cargo:</label>
+            <input type="text" name="cargo" id="cargo" maxlength="40" required placeholder="Cargo.">
+            <br>
+            <label for="descricao-cargo">Descrição do Cargo:</label>
+            <input type="text" name="descrição" id="descricao-cargo" maxlength="500" required placeholder="Descrição do cargo.">
+            <br>
+            <label for="inicio">Data de início:</label>
+            <input type="date" name="data" id="inicio">
+        </fieldset>
+        </form>
     <script src="./script.js"></script>
 </body>
 </html>
