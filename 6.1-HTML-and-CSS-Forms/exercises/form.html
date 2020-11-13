@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Cadastro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1 class="cadastro">Formulário de Currículo</h1>
+    <form action="" method="get" enctype="multipart/form-data">
+        <fieldset>
+            <legend>Dados Cadastrais</legend>
+            <label for="nome">Nome:</label>
+            <input type="text" name="nome" id="nome" placeholder="Digite seu nome" maxlength="40" required >
+            <br>
+            <label for="sobrenome">Sobrenome:</label>
+            <input type="text" name="nome" id="sobrenome" placeholder="Digite seu sobrenome" maxlength="40" required >
+            <br>
+            <label for="email-pessoal">Email:</label>
+            <input type="email" name="email" id="email-pessoal" placeholder="Digite seu email" maxlength="50" required>
+            <br>
+            <label for="telefone-celular">Telefone Celular:</label>
+            <input type="tel" name="telefone" id="telefone-celular" placeholder="00000000000" pattern="[0-9]{11}" maxlength="11" required>
+            <br>
+            <label for="numero-cpf">CPF:</label>
+            <input type="text" name="cpf" id="numero-cpf" maxlength="11" placeholder="00000000000" required>
+            <br>
+            <label for="moradia">Endereço:</label>
+            <input type="text" name="endereço" id="moradia" required maxlength="200" placeholder="Endereço">
+            <br>
+            
+        </fieldset>
+    </form>
+    <script src="./script.js"></script>
+</body>
+</html>
