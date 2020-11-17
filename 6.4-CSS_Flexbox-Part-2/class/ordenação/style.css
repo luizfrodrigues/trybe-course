@@ -1,0 +1,26 @@
+.flex-container {
+  border: 3px solid #333333;
+  width: auto;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.box {
+  background-color: rgb(11, 138, 58);
+  color: white;
+  padding: 0 20px;
+  border-radius: 50%;
+}
+.flex-container > .box:nth-child(1) {
+  order: 2;
+}
+.flex-container > .box:nth-child(2) {
+  order: 1;
+}
+.flex-container > .box:nth-child(3) {
+  order: 1;
+}
+.flex-container > .box:nth-child(4) {
+  order: 1;
+}
