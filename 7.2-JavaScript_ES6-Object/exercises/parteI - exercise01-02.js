@@ -22,6 +22,11 @@ const order = {
         type: 'Coca-Cola Zero',
         price: 10,
         amount: 1,
+      },
+      fanta: {
+        type: 'Fanta Uva',
+        price: 10,
+        amount: 1,
       }
     },
     delivery: {
@@ -42,7 +47,7 @@ const customerInfo = (order) => {
   const number = order.address.number;
   const complement = order.address['apartment'];
 
-  console.log(`Olá ${deliveryPerson}, entrega para: ${customerName}, Telefone: ${customerPhone}, R. ${street}, No: ${number}, Apto: ${complement}`);
+  console.log(`Olá ${deliveryPerson}, entrega para: ${customerName}, Telefone: ${customerPhone}, R: ${street}, No: ${number}, Apto: ${complement}`);
 }
 
 customerInfo(order);
@@ -60,10 +65,11 @@ const orderModifier = (order) => {
       }
     }
   const pizzas = `${Object.keys(newOrder)[0]}, ${Object.keys(newOrder)[1]}`;
-  const drinks = order.order.drinks.coke.type;
+  const drinks = order.order.drinks.fanta.type;
+  const quantidade = order.order.drinks.fanta.amount;
   const newTotal = order.payment.total = '50,00';
 
-  console.log(`Olá ${newPerson}, o total do seu pedido de ${pizzas} e ${drinks} é R$ ${newTotal}.`);
+  console.log(`Olá ${newPerson}, o valor do pedido das 2 pizzas sabores ${pizzas} e ${quantidade} ${drinks} é R$ ${newTotal}.`);
 }
 
 orderModifier(order);
