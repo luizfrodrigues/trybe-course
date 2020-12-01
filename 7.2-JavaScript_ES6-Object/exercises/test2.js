@@ -18,9 +18,9 @@ const ages = [33, 12, 20, 16, 5, 54, 21, 44, 61, 13, 15, 45, 25, 64, 32];
 
 //forEach
 
-// companies.forEach(function(company) {
-//   console.log(company.category)
-// });
+companies.forEach(function(company) {
+  console.log(company.category)
+});
 
 // filter
 
@@ -35,7 +35,7 @@ const ages = [33, 12, 20, 16, 5, 54, 21, 44, 61, 13, 15, 45, 25, 64, 32];
 
 // const canDrink = ages.filter(age => age >= 18);
 
-// console.log(canDrink);
+console.log(ages.filter(age => age >= 18).sort((a,b) => a - b));
 
 //filter retail companies
 
